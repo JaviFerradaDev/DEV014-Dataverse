@@ -4,6 +4,6 @@ export const example = () => {
   return 'example';
 };
 
-export const anotherExample = () => {
-  return [];
-};
+// export const anotherExample = () => {
+//   return [];
+// };

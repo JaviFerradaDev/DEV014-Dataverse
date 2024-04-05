@@ -4,15 +4,16 @@ export default [
     "name": "Python",
     "shortDescription": "Python es como un asistente versátil en la programación, siempre dispuesto a ayudarte en cualquier tarea.",
     "description": "Python es como un asistente versátil en la programación, siempre dispuesto a ayudarte en cualquier tarea. Su amigable sintaxis y su facilidad de aprendizaje lo convierten en el lenguaje perfecto para iniciarse en la programación y para profesionales experimentados por igual. Desde la creación de simples scripts hasta proyectos complejos de inteligencia artificial, Python brinda herramientas poderosas para una amplia gama de aplicaciones. Además, su comunidad activa y su extensa biblioteca de módulos proporcionan un respaldo sólido, permitiendo a los desarrolladores encontrar soluciones rápidas y eficientes para cualquier desafío que puedan enfrentar en sus proyectos.",
-    "imageUrl": "https://drive.google.com/file/d/1FJ7Vd1zyaFLlukLPrMa_dEerbvtMODNX/view?usp=drive_link",
-    "imagePath": "src/images/python.jpg",
+    "imageUrl": "https://drive.google.com/file/d/1R_kak6Fc7yHcTmHTZrJe7SFIfBStfVE5/view",
+    "imagePath": "https://drive.google.com/file/d/1R_kak6Fc7yHcTmHTZrJe7SFIfBStfVE5/view?usp=sharing",
+    "category": "Lenguaje de programación de propósito general",
     "facts": {
       "yearOfBirth": "1991",
       "creator": "Guido van Rossum",
       "companiesUsingIt": ["Google", "Facebook"]
     },
     "extraInfo": {
-      "imageSource": "https://drive.google.com/file/d/1FJ7Vd1zyaFLlukLPrMa_dEerbvtMODNX/view?usp=drive_link"
+      "imageSource": "https://drive.google.com/file/d/1R_kak6Fc7yHcTmHTZrJe7SFIfBStfVE5/view?usp=sharing"
     }
   },
   {
@@ -83,9 +84,9 @@ export default [
     "id": "Go",
     "name": "Go (Golang)",
     "shortDescription": "Lenguaje de programación desarrollado por Google, se destaca por su eficiencia y rendimiento.",
-    "description": "Go, un lenguaje de programación desarrollado por Google, se destaca por su eficiencia y rendimiento. Ideal para sistemas de alto rendimiento y servidores web, Go se caracteriza por su capacidad para gestionar la concurrencia de manera efectiva y su sintaxis simple. Al aprovechar la concurrencia de manera nativa, Go permite la ejecución simultánea de múltiples tareas, lo que resulta en un procesamiento rápido y eficiente de las solicitudes. Esto lo convierte en una opción popular para aplicaciones que requieren una respuesta rápida y una escalabilidad efectiva en entornos modernos de alto tráfico.",
-    "imageUrl": "src/images/6A Goolang.jpg",
-    "imagePath": "src/images/6A Goolang.jpg",
+    "description": "Go, un lenguaje desarrollado por Google, eficiente y potente. Ideal para sistemas y servidores web, Go se destaca por su capacidad para gestionar concurrencia de manera efectiva y su sintaxis simple. Al aprovechar la concurrencia nativa, permite ejecución simultánea de múltiples tareas, resultando en procesamiento rápido y eficiente de solicitudes. Opción popular para aplicaciones que necesitan respuesta rápida y escalabilidad en entornos de alto tráfico.",
+    "imageUrl": "https://drive.google.com/file/d/1VAX41jcVLC5vEBtlIADHaik_UiM62-xk/view?usp=drive_link",
+    "imagePath": "https://drive.google.com/file/d/1VAX41jcVLC5vEBtlIADHaik_UiM62-xk/view?usp=drive_link",
     "facts": {
       "yearOfBirth": "2007",
       "creator": "Google",
@@ -371,7 +372,7 @@ export default [
     "id": "COOL",
     "name": "COOL",
     "shortDescription": "Lenguaje de programación orientado a objetos, desarrollado para la enseñanza de conceptos de programación.",
-    "description": "COOL (Classroom Object Oriented Language) es un lenguaje de programación orientado a objetos, desarrollado para la enseñanza de conceptos de programación. Inspirado en lenguajes como Java y C++, COOL simplifica la sintaxis y las características de los lenguajes orientados a objetos para facilitar su comprensión por parte de estudiantes y principiantes en la programación. COOL se utiliza comúnmente en entornos académicos para enseñar principios fundamentales de la programación orientada a objetos, como la encapsulación, la herencia y el polimorfismo. Su enfoque claro y estructurado lo convierte en una herramienta efectiva para introducir a los estudiantes en el mundo de la programación.",
+    "description": "COOL (Classroom Object Oriented Language) es un lenguaje orientado a objetos, desarrollado para la enseñanza de conceptos de programación. Inspirado en lenguajes como Java y C++, COOL simplifica la sintaxis y las características de los lenguajes orientados a objetos para facilitar su comprensión por parte de estudiantes y principiantes en la programación. COOL se utiliza comúnmente en entornos académicos para enseñar principios fundamentales de la programación orientada a objetos, como la encapsulación, la herencia y el polimorfismo. Su enfoque claro y estructurado lo convierte en una herramienta efectiva para introducir a los estudiantes en el mundo de la programación.",
     "imageUrl": "src/images/cool.jpg",
     "imagePath": "src/images/cool.jpg",
     "facts": {
