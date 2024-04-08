@@ -4,8 +4,8 @@ export default [
     "name": "Python",
     "shortDescription": "Python es como un asistente versátil en la programación, siempre dispuesto a ayudarte en cualquier tarea.",
     "description": "Python es como un asistente versátil en la programación, siempre dispuesto a ayudarte en cualquier tarea. Su amigable sintaxis y su facilidad de aprendizaje lo convierten en el lenguaje perfecto para iniciarse en la programación y para profesionales experimentados por igual. Desde la creación de simples scripts hasta proyectos complejos de inteligencia artificial, Python brinda herramientas poderosas para una amplia gama de aplicaciones. Además, su comunidad activa y su extensa biblioteca de módulos proporcionan un respaldo sólido, permitiendo a los desarrolladores encontrar soluciones rápidas y eficientes para cualquier desafío que puedan enfrentar en sus proyectos.",
-    "imageUrl": "https://drive.google.com/file/d/1R_kak6Fc7yHcTmHTZrJe7SFIfBStfVE5/view",
-    "imagePath": "https://drive.google.com/file/d/1R_kak6Fc7yHcTmHTZrJe7SFIfBStfVE5/view?usp=sharing",
+    "imageUrl": "https://raw.githubusercontent.com/JaviFerradaDev/DEV014-Dataverse/main/Images/1B%20Python.jpg",
+    "imagePath": "https://raw.githubusercontent.com/JaviFerradaDev/DEV014-Dataverse/main/Images/1B%20Python.jpg",
     "category": "Lenguaje de programación de propósito general",
     "facts": {
       "yearOfBirth": "1991",
@@ -13,7 +13,7 @@ export default [
       "companiesUsingIt": ["Google", "Facebook"]
     },
     "extraInfo": {
-      "imageSource": "https://drive.google.com/file/d/1R_kak6Fc7yHcTmHTZrJe7SFIfBStfVE5/view?usp=sharing"
+      "imageSource": "https://raw.githubusercontent.com/JaviFerradaDev/DEV014-Dataverse/main/Images/1B%20Python.jpg"
     }
   },
   {
@@ -383,5 +383,5 @@ export default [
     "extraInfo": {
       "imageSource": "https://drive.google.com/file/d/1Ih4l6Hd72WlLYb6cTgE3qB-mQoQWqDdp/view?usp=sharing"
     }
-  }
+  },
 ]
