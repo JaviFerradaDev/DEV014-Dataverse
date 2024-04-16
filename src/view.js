@@ -25,15 +25,17 @@ export const renderItems = (data) =>  {
     imageElement.src = item.imageUrl;
     imageElement.alt = item.title;
 
+    liElement.classList.add('card');
+
     liElement.appendChild(imageElement);
-    liElement.appendChild(name); //// Agrego los elementos de contenido al <li>
+    liElement.appendChild(name); // Agrego los elementos de contenido al <li>
     liElement.appendChild(shortDescription);
 
     ulElement.appendChild(liElement); // Agrego el <li> al <ul>
     divRoot.appendChild(ulElement);
   });
 
-  // Devolver <ul>
+  // Devolver <ul> que retorne el UL, no el root 
   return divRoot;
 };
 
