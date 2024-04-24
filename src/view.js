@@ -1,5 +1,5 @@
 export const renderItems = (data) =>  {
-  const divRoot = document.getElementById('root');
+  const divRoot = document.getElementById('root'); // 1° selector 
   // Creo un elemento <ul>
   const ulElement = document.createElement('ul');
   if (divRoot.hasChildNodes()) {
@@ -17,6 +17,10 @@ export const renderItems = (data) =>  {
     name.textContent = item.name;
     name.setAttribute('itemprop',item.name);
 
+    const creationYear = document.createElement("strong");
+    creationYear.textContent = item.facts.creationYear;
+    creationYear.setAttribute('itemprop',item.facts.creationYear);
+
     const shortDescription = document.createElement('p');
     shortDescription.textContent = item.shortDescription;
     shortDescription.setAttribute('itemprop',item.shortDescription);
@@ -28,7 +32,8 @@ export const renderItems = (data) =>  {
     liElement.classList.add('card');
 
     liElement.appendChild(imageElement);
-    liElement.appendChild(name); // Agrego los elementos de contenido al <li>
+    liElement.appendChild(name);
+    liElement.appendChild(creationYear); // Agrego los elementos de contenido al <li>
     liElement.appendChild(shortDescription);
 
     ulElement.appendChild(liElement); // Agrego el <li> al <ul>
@@ -36,6 +41,6 @@ export const renderItems = (data) =>  {
   });
 
   // Devolver <ul> que retorne el UL, no el root 
-  return divRoot;
+  return ulElement;
 };
 

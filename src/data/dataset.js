@@ -7,7 +7,7 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/1_Python.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/1_Python.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1991",
+      "creationYear": 1991,
       "creator": "Guido van Rossum",
       "companiesUsingIt": ["Google", "Facebook"]
     },
@@ -24,7 +24,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/JaviFerradaDev/DEV014-Dataverse/main/Images/2_JavaScript.jpg",
     "imagePath": "https://raw.githubusercontent.com/JaviFerradaDev/DEV014-Dataverse/main/Images/2_JavaScript.jpg",
     "facts": {
-      "yearOfBirth": "1995",
+      "creationYear": 1995,
       "creator": "Brendan Eich",
       "companiesUsingIt": ["Microsoft", "Google"]
     },
@@ -41,7 +41,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/JaviFerradaDev/DEV014-Dataverse/main/Images/3_Java.jpg",
     "imagePath": "https://raw.githubusercontent.com/JaviFerradaDev/DEV014-Dataverse/main/Images/3_Java.jpg",
     "facts": {
-      "yearOfBirth": "1995",
+      "creationYear": 1995,
       "creator": "James Gosling",
       "companiesUsingIt": ["Oracle", "IBM"]
     },
@@ -58,7 +58,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/JaviFerradaDev/DEV014-Dataverse/main/Images/4_C%23.jpg",
     "imagePath": "https://raw.githubusercontent.com/JaviFerradaDev/DEV014-Dataverse/main/Images/4_C%23.jpg",
     "facts": {
-      "yearOfBirth": "2000",
+      "creationYear": 2000,
       "creator": "Microsoft",
       "companiesUsingIt": ["Microsoft", "Unity Technologies"]
     },
@@ -75,7 +75,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/JaviFerradaDev/DEV014-Dataverse/main/Images/5_Ruby.jpg",
     "imagePath": "https://raw.githubusercontent.com/JaviFerradaDev/DEV014-Dataverse/main/Images/5_Ruby.jpg",
     "facts": {
-      "yearOfBirth": "1995",
+      "creationYear": 1995,
       "creator": "Yukihiro Matsumoto",
       "companiesUsingIt": ["GitHub", "Shopify"]
     },
@@ -92,7 +92,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/JaviFerradaDev/DEV014-Dataverse/main/Images/6_Goolang.jpg",
     "imagePath": "https://raw.githubusercontent.com/JaviFerradaDev/DEV014-Dataverse/main/Images/6_Goolang.jpg",
     "facts": {
-      "yearOfBirth": "2007",
+      "creationYear": 2007,
       "creator": "Google",
       "companiesUsingIt": ["Google", "Dropbox"]
     },
@@ -109,7 +109,7 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/7_Swift.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/7_Swift.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "2014",
+      "creationYear": 2014,
       "creator": "Apple Inc.",
       "companiesUsingIt": ["Apple", "Uber"]
     },
@@ -126,7 +126,7 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/8A_PHP.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/8A_PHP.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1994",
+      "creationYear": 1994,
       "creator": "Rasmus Lerdorf",
       "companiesUsingIt": ["Facebook", "WordPress"]
     },
@@ -143,7 +143,7 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/9_Rust.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/9_Rust.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "2010",
+      "creationYear": 2010,
       "creator": "Graydon Hoare",
       "companiesUsingIt": ["Mozilla", "Dropbox"]
     },
@@ -160,7 +160,7 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/10_Kotlin.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/10_Kotlin.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "2011",
+      "creationYear": 2011,
       "creator": "JetBrains",
       "companiesUsingIt": ["Google", "Trello"]
     },
@@ -177,7 +177,7 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/11_Typescript.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/11_Typescript.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "2012",
+      "creationYear": 2012,
       "creator": "Microsoft",
       "companiesUsingIt": ["Google", "Slack"]
     },
@@ -194,7 +194,7 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/12_Scala.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/12_Scala.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "2003",
+      "creationYear": 2003,
       "creator": "Martin Odersky",
       "companiesUsingIt": ["Twitter", "LinkedIn"]
     },
@@ -211,7 +211,7 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/13_C++.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/13_C++.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1985",
+      "creationYear": 1985,
       "creator": "Bjarne Stroustrup",
       "companiesUsingIt": ["Microsoft", "Adobe"]
     },
@@ -228,7 +228,7 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/14_R.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/14_R.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1993",
+      "creationYear": 1993,
       "creator": "Ross Ihaka, Robert Gentleman",
       "companiesUsingIt": ["Google", "Facebook"]
     },
@@ -245,7 +245,7 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/15_Lua.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/15_Lua.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1993",
+      "creationYear": 1993,
       "creator": "Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes",
       "companiesUsingIt": ["Blizzard Entertainment", "Adobe"]
     },
@@ -262,7 +262,7 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/16_Perl.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/16_Perl.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1987",
+      "creationYear": 1987,
       "creator": "Larry Wall",
       "companiesUsingIt": ["Amazon", "Booking.com"]
     },
@@ -279,7 +279,7 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/17_Haskell.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/17_Haskell.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1990",
+      "creationYear": 1990,
       "creator": "Comité de Haskell",
       "companiesUsingIt": ["Facebook", "Microsoft"]
     },
@@ -296,13 +296,13 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/18_Elixir.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/18_Elixir.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "2011",
+      "creationYear": 2011,
       "creator": "José Valim",
       "companiesUsingIt": ["Pinterest", "Discord"]
     },
     "extraInfo": {
       "imageSource": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/18_Elixir.jpg?raw=true",
-      "category": "Lenguaje de programación de videojuegos, educación o procesamiento de datos."
+      "category": "Lenguaje de programación de videojuegos, educación o procesamiento de datos"
     }
   },
   {
@@ -313,7 +313,7 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/19_Dart.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/19_Dart.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "2011",
+      "creationYear": 2011,
       "creator": "Google",
       "companiesUsingIt": ["Google", "Alibaba"]
     },
@@ -330,7 +330,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/JaviFerradaDev/DEV014-Dataverse/main/Images/20_Julia.jpg",
     "imagePath": "https://raw.githubusercontent.com/JaviFerradaDev/DEV014-Dataverse/main/Images/20_Julia.jpg",
     "facts": {
-      "yearOfBirth": "2012",
+      "creationYear": 2012,
       "creator": "Jeff Bezanson, Stefan Karpinski, Viral B. Shah, Alan Edelman",
       "companiesUsingIt": ["NASA", "Ford Motor Company"]
     },
@@ -347,7 +347,7 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/21_Groovy.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/21_Groovy.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "2003",
+      "creationYear": 2003,
       "creator": "James Strachan",
       "companiesUsingIt": ["Netflix", "LinkedIn"]
     },
@@ -364,13 +364,13 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/22_COBOL.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/22_COBOL.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1959",
+      "creationYear": 1959,
       "creator": "Grace Hopper",
       "companiesUsingIt": ["IBM", "Bank of America"]
     },
     "extraInfo": {
       "imageSource": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/22_COBOL.jpg?raw=true",
-      "category": "Lenguaje de programación de videojuegos, educación o procesamiento de datos."
+      "category": "Lenguaje de programación de videojuegos, educación o procesamiento de datos"
     }
   },
   {
@@ -381,7 +381,7 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/23_Ada.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/23_Ada.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1980",
+      "creationYear": 1980,
       "creator": "Jean Ichbiah",
       "companiesUsingIt": ["Boeing", "Lockheed Martin"]
     },
@@ -398,13 +398,13 @@ export default [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/24_Cool.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/24_Cool.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1996",
+      "creationYear": 1996,
       "creator": "Universidad de California, Berkeley",
       "companiesUsingIt": ["Universidad de California"]
     },
     "extraInfo": {
       "imageSource": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/24_Cool.jpg?raw=true",
-      "category": "Lenguaje de programación de videojuegos, educación o procesamiento de datos."
+      "category": "Lenguaje de programación de videojuegos, educación o procesamiento de datos"
   }
 }
 
