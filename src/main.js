@@ -15,7 +15,6 @@ const scienceTechLanguages = filterData(data, 'category', 'Lenguaje de programac
 const otherLanguages = filterData(data, 'category', 'Lenguaje de programación de videojuegos, educación o procesamiento de datos');
 
 // Llamar a la función renderItems con los datos filtrados
-renderItems(data);
 
 //Eventos del DOM
 /*selectFilter.addEventListener('change', (e) => {
@@ -53,7 +52,7 @@ const filterOrder = (e) => {
   // prodrias tener otra seguda variable que es copia de la primera y esta variable ejecuta el filtrado
   //    const algdos = filterData(algo, 'category', selectfilter.value);
   // renderitems(algdos)
-  
+
   if (optionValue === 'value1') {
     renderItems(data);
   }
