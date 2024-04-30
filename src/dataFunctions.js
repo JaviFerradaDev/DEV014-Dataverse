@@ -19,3 +19,6 @@ export const sortData = (data, sortBy, sortOrder) => {
     return data.sort((a, b) => b.facts[sortBy] - a.facts[sortBy]);
   }
 }
+
+
+

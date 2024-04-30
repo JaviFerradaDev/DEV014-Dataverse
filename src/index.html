@@ -11,25 +11,26 @@
 <body>
 
   <header>
-    <h1> Dataverse</h1>
-    <h2>Lenguajes de programación</h2>
+    <h1></h1>
+    <h2 class="tittle">Lenguajes de programación</h2>
     <div class="div1">
       <nav class="navbar">
         <label for="selectSort">Ordena:</label>
         <select name="Ordenar" data-testid="select-sort" id="selectSort">
+          <option value="Reset">Selecciona una opción</option>
           <option value="asc">Desde el más antiguo</option>
           <option value="desc">Desde el más reciente</option>
         </select>
-        <label for="selectFilter">Filtra:</label>
+        <label for="selectFilter">Filtrar:</label>
         <select name="Filtro" data-testid="select-filter" id="selectFilter">
-          <option value="Todos">Todos los tipos de lenguajes</option>
+          <option value="Todos">Tipos de lenguajes de programación</option>
           <option value="Lenguaje de programación web">Lenguaje de programación web</option>
           <option value="Lenguaje de programación de aplicaciones móviles">Lenguaje de programación de aplicaciones móviles</option>
           <option value="Lenguaje de programación de sistemas">Lenguaje de programación de sistemas</option>
           <option value="Lenguaje de programación científica y técnica">Lenguaje de programación científica y técnica</option>
-          <option value="Lenguaje de programación de videojuegos, educación o procesamiento de datos<">Lenguaje de programación de videojuegos, educación o procesamiento de datos</option>
+          <option value="Lenguaje de programación de videojuegos, educación o procesamiento de datos">Lenguaje de programación de videojuegos, educación o procesamiento de datos</option>
         </select>
-        <button id="reset-button">Limpiar</button>
+        <button data-testid="button-clear" class="pulse-effect">Limpiar</button>
       </nav>
     </div>
   </header>
@@ -38,7 +39,7 @@
     <div id="root"></div>
   </main>
 
-  <footer> DEV014 Javiera Ferrada </footer>
+  <footer> Laboratoria | DEV014 | Desarrolladora Web Javiera Ferrada </footer>
   <script src="main.js" type="module"></script>
 </body>
 

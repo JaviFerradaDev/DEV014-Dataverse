@@ -7,79 +7,33 @@ import data from './data/dataset.js';
 const selectFilter = document.getElementById('selectFilter');
 const selectSort = document.getElementById('selectSort');
 
-// Filtrar los datos por categoría
-const webLanguages = filterData(data, 'category', 'Lenguaje de programación web');
-const mobileLanguages = filterData(data, 'category', 'Lenguaje de programación de aplicaciones móviles');
-const systemLanguages = filterData(data, 'category', 'Lenguaje de programación de sistemas');
-const scienceTechLanguages = filterData(data, 'category', 'Lenguaje de programación científica y técnica');
-const otherLanguages = filterData(data, 'category', 'Lenguaje de programación de videojuegos, educación o procesamiento de datos');
+renderItems(data);
 
-// Llamar a la función renderItems con los datos filtrados
+let filteredData = [...data]; // Copia de los datos originales
+let sortedData = [...data];   // Copia de los datos originales
 
-//Eventos del DOM
-/*selectFilter.addEventListener('change', (e) => {
+selectFilter.addEventListener('change', function (e) {
   const optionValue = e.target.value;
-  if (optionValue === 'value1') {
-    renderItems(data);
-  }
-  if (optionValue === 'value2') {
-    renderItems(webLanguages);
-  }
-  if (optionValue === 'value3') {
-    renderItems(mobileLanguages);
-  }
-  if (optionValue === 'value4') {
-    renderItems(systemLanguages);
-  }
-  if (optionValue === 'value5') {
-    renderItems(scienceTechLanguages);
-  }  
-  if (optionValue === 'value6') {
-    renderItems(otherLanguages);
-  }
+  filteredData = filterData([...data], 'category', optionValue); // Actualiza el estado filtrado
+  sortedData = sortData([...filteredData], 'creationYear', selectSort.value); // Ordena los datos filtrados
+  renderItems(sortedData);
 });
 
-selectSort.addEventListener('change', (e) => {
-  renderItems(sortData(data, 'creationYear', e.target.value));
+selectSort.addEventListener('change', function (e) {
+  const optionValue = e.target.value;
+  sortedData = sortData([...filteredData], 'creationYear', optionValue); // Actualiza el estado ordenado
+  renderItems(sortedData);
 });
-*/
-const filterOrder = (e) => {
-  const optionValue = selectFilter.value;
-  console.log (optionValue);
 
-  // podriamos tener una variable la cual primero ordene la data esta variable ejecuta el ordenado 
-  //  const algo= sortData(data, 'creationYear', selectSort.value)
-  // prodrias tener otra seguda variable que es copia de la primera y esta variable ejecuta el filtrado
-  //    const algdos = filterData(algo, 'category', selectfilter.value);
-  // renderitems(algdos)
+document.addEventListener('DOMContentLoaded', function () {
+  const clearButton = document.querySelector('[data-testid="button-clear"]');
+  clearButton.addEventListener('click', function () {
+    //console.log('Botón de limpiar clickeado');
+    filteredData = [...data]; // Reinicio los datos filtrados y ordenados a los originales
+    sortedData = [...data]; // Renderizo los datos originales
+    renderItems(data); // Restablezco el valor seleccionado en los selectores
+    selectFilter.value = 'Todos';
+    selectSort.value = 'Reset';
+  });
+});
 
-  if (optionValue === 'value1') {
-    renderItems(data);
-  }
-  if (optionValue === 'value2') {
-    renderItems(webLanguages);
-  }
-  if (optionValue === 'value3') {
-    renderItems(mobileLanguages);
-  }
-  if (optionValue === 'value4') {
-    renderItems(systemLanguages);
-  }
-  if (optionValue === 'value5') {
-    renderItems(scienceTechLanguages);
-  }  
-  if (optionValue === 'value6') {
-    renderItems(otherLanguages);
-  }
-  console.log (selectSort.value)
-  renderItems(sortData(data, 'creationYear', selectSort.value));
-}
-
-selectFilter.addEventListener('change', (e) => {
-  filterOrder (e)
-})
-
-selectSort.addEventListener('change', (e) => {
-  filterOrder (e)
-})
-  
