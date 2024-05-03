@@ -4,7 +4,7 @@ export default [
     "name": "Python",
     "shortDescription": "Python es como un asistente versátil en la programación, siempre dispuesto a ayudarte en cualquier tarea.",
     "description": "Python es como un asistente versátil en la programación, siempre dispuesto a ayudarte en cualquier tarea. Su amigable sintaxis y su facilidad de aprendizaje lo convierten en el lenguaje perfecto para iniciarse en la programación y para profesionales experimentados por igual. Desde la creación de simples scripts hasta proyectos complejos de inteligencia artificial, Python brinda herramientas poderosas para una amplia gama de aplicaciones. Además, su comunidad activa y su extensa biblioteca de módulos proporcionan un respaldo sólido, permitiendo a los desarrolladores encontrar soluciones rápidas y eficientes para cualquier desafío que puedan enfrentar en sus proyectos.",
-    "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/1_Python.jpg?raw=true",
+    "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/1_Python.jpg?raw=tr",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/1_Python.jpg?raw=true",
     "facts": {
       "creationYear": 1991,

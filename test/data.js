@@ -7,7 +7,7 @@ export const data = [
     "imageUrl": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/1_Python.jpg?raw=true",
     "imagePath": "https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/1_Python.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1991",
+      "creationYear": 1991,
       "creator": "Guido van Rossum",
       "companiesUsingIt": ["Google", "Facebook"]
     },
@@ -24,7 +24,7 @@ export const data = [
     "imageUrl": "https://raw.githubusercontent.com/JaviFerradaDev/DEV014-Dataverse/main/Images/2_JavaScript.jpg",
     "imagePath": "https://raw.githubusercontent.com/JaviFerradaDev/DEV014-Dataverse/main/Images/2_JavaScript.jpg",
     "facts": {
-      "yearOfBirth": "1995",
+      "creationYear": 1995,
       "creator": "Brendan Eich",
       "companiesUsingIt": ["Microsoft", "Google"]
     },
