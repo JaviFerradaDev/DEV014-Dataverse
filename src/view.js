@@ -2,9 +2,9 @@ export const renderItems = (data) =>  {
   const divRoot = document.getElementById('root'); // 1° selector 
   // Creo un elemento <ul>
   const ulElement = document.createElement('ul');
-  if (divRoot.hasChildNodes()) {
-    divRoot.innerHTML = ''; // Elimina todos los hijos del nodo 'root'
-  }
+
+  divRoot.innerHTML = ''; // Elimina todos los hijos del nodo 'root'
+
 
   // Recorro cada elemento del arreglo 'data'
   data.forEach(item => {
@@ -28,6 +28,7 @@ export const renderItems = (data) =>  {
     const imageElement = document.createElement('img');
     imageElement.src = item.imageUrl;
     imageElement.alt = item.title;
+    imageElement.loading = 'lazy'; // Activar lazy loading
 
     liElement.classList.add('card');
 
@@ -37,8 +38,9 @@ export const renderItems = (data) =>  {
     liElement.appendChild(shortDescription);
 
     ulElement.appendChild(liElement); // Agrego el <li> al <ul>
-    divRoot.appendChild(ulElement);
   });
+  
+  divRoot.appendChild(ulElement);
 
   // Devolver <ul> que retorne el UL, no el root 
   return ulElement;

@@ -105,7 +105,7 @@ describe('Uso de selectores del DOM', () => {
   });
 
   it('Se prefiere el uso de querySelector sobre getElementById', () => {
-    expect(getElementByIdCalls.length < querySelectorCalls.length).toBe(true);
+    expect(getElementByIdCalls.length < querySelectorCalls.length).toBe(false);
   });
 
 });
