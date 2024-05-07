@@ -4,9 +4,9 @@
 
 Para la creación de esta data se utilizó el siguiente prompt:
 
-![Prompt dataset](Images\Prompt_dataset.png)
+![Prompt 1](https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/Prompt%20dataset.png)
 
-![Prompt dataset](Images/Prompt_dataset_2.png) 
+![Prompt 2](https://github.com/JaviFerradaDev/DEV014-Dataverse/blob/main/Images/Prompt%20dataset%202.png)
 
 ## Historias de Usuaria 📖
 
